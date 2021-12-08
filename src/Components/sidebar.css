@@ -1,0 +1,154 @@
+.sidebar {
+    display: flex;
+    position: relative;
+    flex: 0.29 1;
+    width: 100%;
+    height: 100vh;
+    background: #EBF2F7;
+    box-shadow: 0px 8px 28px -6px rgb(24 39 75 / 12%), 0px 18px 88px -4px rgb(24 39 75 / 14%);
+    border-radius: 0px 32px 32px 0px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.profile__card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 35px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 8px;
+    width: 278px;
+    height: 77px;
+    padding: 3px;
+}
+
+.profile__card img {
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    margin: 10px 5px 10px 10px;
+}
+
+.profile__detail {
+    margin: 15px 10px 10px 5px;
+}
+
+.profile__detail h4 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0;
+    color: #212121;
+}
+
+.profile__detail p {
+    font-size: 16px;
+    color: #212121;
+}
+
+.toggle__card {
+    display: flex;
+    align-items: center;
+   
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 15px;
+    width: 278px;
+    height: 161px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 8px;
+}
+
+.toggle__switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EBF2F7;
+    box-shadow: inset 0px 8px 28px -6px rgba(24, 39, 75, 0.12), inset 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 8px;
+    width: 150px;
+    
+}
+
+.toggle__detail {
+    font-size: 40px;
+    padding: 0 20px 0px 20px;
+}
+
+.toggle__detail__on{
+    font-size: 40px;
+    padding: 0 20px 0px 20px;
+    background: #A3FFD3;
+    box-shadow: inset 0px 8px 28px -6px rgba(24, 39, 75, 0.12), inset 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 0px 8px 8px 0px;
+}
+
+.toggle__list {
+    font-size: 40px;
+    padding: 0 20px 0px 20px;
+    background: #A3FFD3;
+    box-shadow: inset 0px 8px 28px -6px rgba(24, 39, 75, 0.12), inset 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 0px 8px 8px 0px;
+}
+
+.feedback__card{
+    display: flex;
+    width: 278px;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 30px;
+}
+
+.feedback__card button {
+    width: 229px;
+    height: 58px;
+    margin-bottom: 10px;
+    background: #A3FFD3;
+    box-shadow: inset 0px 8px 28px -6px rgba(24, 39, 75, 0.12), inset 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 8px;
+}
+
+
+/* ----------------------- feedback css------------------------------ */
+
+.feedback__modal {
+    display: none;   
+}
+
+.feedbackOn{
+    display: flex;
+    position: relative;
+    flex: 0.29 1;
+    width: 100%;
+    height: 100vh;
+    background: #EBF2F7;
+    flex-direction: column;
+    align-items: center;
+}
+
+.isfeedbackOpen {
+    display: flex;
+   
+    height: 100vh;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0px 8px 28px -6px rgb(24 39 75 / 12%), 0px 18px 88px -4px rgb(24 39 75 / 14%);
+    border-radius: 0px 32px 32px 0px;
+}
+
+.feedback__btn {
+    margin-top: 15px;
+    background: #5CC8A1;
+    box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 8px;
+}

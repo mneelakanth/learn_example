@@ -1,0 +1,150 @@
+/* ----------------Main component list view css ------------------------*/
+
+.main__content__list {
+    flex: 0.71;
+    
+}
+
+.newsContents__list {
+    margin-top: 10px;
+}
+
+.newsList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsList__card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 16px;
+    padding: 10px;
+    margin: 7px 0 7px 20px;
+    max-width: 100%;
+    width: 850px;
+    height: 115px;
+}
+
+.newsList__card img {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.newsList__card__detail{
+    margin-left: 10px;
+}
+
+.newsList__card__detail h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #212121;
+    margin: 0;
+    line-height: 22px;
+}
+
+.newsList__card__detail h6 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.newsList__card__detail small {
+    color: #B9B9B9;
+}
+
+.newsList__cancel  {
+    background: #ffffff;
+    box-shadow: 0px 6px 12px -6px rgba(24, 39, 75, 0.12), 0px 8px 24px -4px rgba(24, 39, 75, 0.08);
+    border-radius: 64px;
+    margin: 10px;
+}
+
+.newsList__cancel i {
+    width: 22px;
+    height: 22px;
+    font-size: 22px;
+    margin: 5px;
+    color: #FF9090;
+    
+}
+
+
+.news__pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news__pagination .roundedBtn{
+    background: #FFFFFF;
+    box-shadow: 0px 8px 28px rgba(24, 39, 75, 0.12), 0px 18px 88px rgba(24, 39, 75, 0.14);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* ----------------Main component list view css ------------------------*/
+
+
+/* ----------------Main component Detail view css ------------------------*/
+
+.main__content__detail {
+    flex: 0.71;
+}
+
+.newsContents__detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+/* .newsDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+} */
+
+.newsDetail__card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 285px;
+    height: 320px;
+    margin: 15px ;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+    border-radius: 8px;
+}
+
+.newsDetail__cancel i {
+    float: right;
+    font-size: 18px;
+    color: #FF9090;
+}
+
+.newsDetail__details {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.newsDetail__details p {
+    margin: 0;
+}
+
+.newsDetail__card img {
+    width: 250px;
+    height: 122px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+/* ----------------Main component Detail view css ------------------------*/
